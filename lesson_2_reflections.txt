@@ -5,3 +5,7 @@ When a repository is initialized, a .git file will appear. I need to do it becau
 -How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area is an intermediate between the working directory and the repository. We can add files in it before they become commits, or we can use the git status command to show the current files in the staging area.
+
+-How can you use the staging area to make sure you have one commit per logical change?
+
+We can use commands such as git diff and git diff --staged to compare the files in the working directory and the staging area, and the files in the staging area and the most recent commit, respectively. We then can get a clearer picture of what exactly we are going to commit.
