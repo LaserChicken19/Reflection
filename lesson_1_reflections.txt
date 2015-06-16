@@ -1,0 +1,27 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+-Terminal provides us with a nice way to compare two versions of a file by using the $diff command. When diff is executed, we can see line by line the difference between our files.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term? 
+
+-When the new version doesn't work, we can rescue the old version at no cost. When we want to abandon the new version and choose instead the old version, we can also find the old version in our folder.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+-For a person who is often forgetful, versions that are automatically saved should be easier for him/her. However, in most cases, these automatically saved versions are often not complete and can't even be compiled. In contrast, manually saving a version conveys a programmer's logic and thoughts more thoroughly than saving automatically.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+-Some files are interrelated to one another. Saving multipule files in a one commit makes a clearer picture on what the programmer did in the change.
+
+How can you use the commands git log and git diff to view the history of files?
+
+-First, I have to connect to the Internet and clone a repository to my computer by using the git clone command. Next, type in git log to view all versions in the repository. Then, find the version which I'm interested in and use git diff to compare it with its original file.
+
+How might using version control make you more confident to make changes that could break something?
+
+-At any time we can use git checkout to return to an older version of our program.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+-Version control, right?
