@@ -1,0 +1,7 @@
+-What happens when you initialize a repository? Why do you need to do it?
+
+When a repository is initialized, a .git file will appear. I need to do it because I want to add new commits in it.
+
+-How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is an intermediate between the working directory and the repository. We can add files in it before they become commits, or we can use the git status command to show the current files in the staging area.
