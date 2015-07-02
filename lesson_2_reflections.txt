@@ -13,3 +13,7 @@ We can use commands such as git diff and git diff --staged to compare the files 
 -What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 When we want to turn away from the master branch, and, say, create an experimental version of the file or make in in another mode, we can use git branch to create another branch that stores the commit. The common commands are git branch xxx and git checkout xxx.
+
+-How do the diagrams help you visualize the branch structure?
+
+The diagrams show clearly which commit is the father of another commit.
