@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+-Keeping all my work local may result in the loss of files. By saving my work online, I can easily catch up with what I left over wherenever I have internet access.
